@@ -3,16 +3,17 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Aisha Qarout | Full Stack Developer</title>
+  <title>Aisha Qarout | Full Stack Developer Portfolio</title>
+  <meta name="description" content="Aisha Qarout - Junior Full Stack Web Developer portfolio with Laravel, PHP, React, MySQL, APIs, and full-stack projects." />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="assets/css/style.css" />
 </head>
 <body>
   <header class="site-header">
     <nav class="nav container">
-      <a class="logo" href="#home">AQ<span>.</span></a>
+      <a class="logo" href="#home">Aisha<span>Q</span></a>
       <button class="nav-toggle" aria-label="Open menu">☰</button>
       <div class="nav-links">
         <a href="#about">About</a>
@@ -24,80 +25,99 @@
     </nav>
   </header>
 
-  <main>
-    <section id="home" class="hero container">
-      <div class="hero-text reveal">
-        <p class="eyebrow">Full Stack Web Developer • Jordan</p>
-        <h1>Building clean, practical web apps with Laravel, PHP, React, and MySQL.</h1>
-        <p class="hero-subtitle">Computer Science graduate with hands-on full-stack training at Orange Coding School, IT internship experience at Housing Bank, and real projects in parking reservations, gold tracking, and e-commerce.</p>
+  <main id="home">
+    <section class="hero container">
+      <div class="hero-copy reveal">
+        <p class="eyebrow">Junior Full Stack Web Developer • Jordan</p>
+        <h1>I build practical web apps with Laravel, PHP, React, APIs, and MySQL.</h1>
+        <p class="hero-subtitle">Computer Science graduate with full-stack training at Orange Coding School, IT internship experience at Housing Bank, and hands-on projects in parking reservations, gold price tracking, and e-commerce.</p>
         <div class="hero-actions">
           <a class="btn primary" href="#projects">View Projects</a>
-          <a class="btn secondary" href="assets/docs/Aisha-Qarout-CV.pdf" target="_blank">Download CV</a>
+          <a class="btn ghost" href="assets/docs/Aisha-Qarout-CV.pdf" target="_blank">Download CV</a>
+          <a class="btn ghost" href="https://github.com/A2003Q" target="_blank">GitHub</a>
         </div>
-        <div class="quick-stats">
-          <span><strong>3+</strong> Featured Projects</span>
-          <span><strong>Laravel</strong> Backend</span>
-          <span><strong>React</strong> Frontend</span>
+        <div class="stats-row" aria-label="Portfolio highlights">
+          <div><strong>3+</strong><span>Featured Projects</span></div>
+          <div><strong>Laravel</strong><span>Backend</span></div>
+          <div><strong>React</strong><span>Frontend</span></div>
         </div>
       </div>
-      <div class="hero-card reveal">
-        <div class="code-card">
-          <div class="code-dots"><span></span><span></span><span></span></div>
-<pre><code>const developer = {
-  name: "Aisha Qarout",
-  focus: "Full Stack Web Development",
-  stack: ["Laravel", "PHP", "React", "MySQL"],
-  strengths: ["Problem Solving", "Fast Learning", "Teamwork"]
-};</code></pre>
+      <div class="hero-visual reveal">
+        <div class="profile-card">
+          <div class="card-top"></div>
+          <div class="avatar">AQ</div>
+          <h2>Aisha Qarout</h2>
+          <p>Full Stack Web Developer</p>
+          <div class="chip-wrap">
+            <span>Laravel</span><span>PHP</span><span>React</span><span>MySQL</span><span>REST APIs</span>
+          </div>
         </div>
       </div>
     </section>
 
     <section id="about" class="section container reveal">
-      <div class="section-heading">
+      <div class="split-heading">
         <p class="eyebrow">About Me</p>
-        <h2>Junior developer with real project experience.</h2>
+        <h2>Developer focused on clean dashboards, APIs, and real business workflows.</h2>
       </div>
-      <p class="about-text">I am a Full Stack Web Developer from Amman, Jordan. I enjoy transforming ideas into working products using Laravel, PHP, JavaScript, React, and MySQL. My projects focus on practical business workflows: authentication, dashboards, CRUD operations, reservations, subscriptions, external API integration, and admin management systems.</p>
+      <p class="lead">I enjoy transforming ideas into working products. My projects include authentication, admin dashboards, CRUD operations, reservations, subscriptions, external API integration, and database relationships.</p>
     </section>
 
     <section id="skills" class="section container reveal">
-      <div class="section-heading">
+      <div class="section-heading center">
         <p class="eyebrow">Tech Stack</p>
-        <h2>Tools I use to build and debug web applications.</h2>
+        <h2>Technologies I use</h2>
       </div>
       <div class="skills-grid">
-        <div class="skill-card"><h3>Backend</h3><p>PHP, Laravel, Java, Spring Boot basics, REST APIs, MVC, OOP</p></div>
-        <div class="skill-card"><h3>Frontend</h3><p>HTML, CSS, JavaScript, React, Bootstrap, responsive layouts</p></div>
-        <div class="skill-card"><h3>Database</h3><p>MySQL, database design, relationships, migrations, CRUD operations</p></div>
-        <div class="skill-card"><h3>Workflow</h3><p>Git, GitHub, Postman, debugging, teamwork, problem solving</p></div>
+        <article><h3>Backend</h3><p>PHP, Laravel, Java, REST APIs, MVC, OOP</p></article>
+        <article><h3>Frontend</h3><p>HTML, CSS, JavaScript, React, Bootstrap, Responsive UI</p></article>
+        <article><h3>Database</h3><p>MySQL, migrations, relationships, CRUD operations</p></article>
+        <article><h3>Workflow</h3><p>Git, GitHub, Postman, debugging, teamwork</p></article>
       </div>
     </section>
 
     <section id="projects" class="section container reveal">
       <div class="section-heading center">
-        <p class="eyebrow">Featured Work</p>
-        <h2>Projects with screenshots and clear business value.</h2>
+        <p class="eyebrow">Featured Projects</p>
+        <h2>Selected work with clear features and screenshots</h2>
       </div>
 
-      <article class="project-card featured">
+      <article class="project-card highlight">
         <div class="project-copy">
           <span class="project-label">Laravel • MySQL • JavaScript</span>
           <h3>Parking Finder</h3>
-          <p>A smart parking reservation system that helps users search for parking spots, view map results, reserve available spots, and manage subscription plans. Admins can manage reservations, subscriptions, parking data, and revenue.</p>
+          <p>A smart parking reservation platform where users can search for parking spots, view map results, reserve available spots, and manage subscriptions. Admins can manage reservations, subscriptions, parking data, and revenue.</p>
           <ul>
             <li>Map-based parking search and availability display</li>
-            <li>User reservations and subscription workflow</li>
-            <li>Admin dashboard with revenue and reservation management</li>
+            <li>User reservation and subscription workflow</li>
+            <li>Admin dashboard for revenue and reservation management</li>
+          </ul>
+          <div class="project-links"><a href="https://github.com/A2003Q/EasyPark.git" target="_blank">GitHub Repository</a></div>
+        </div>
+        <div class="screens-grid">
+          <figure class="screen large"><img src="assets/img/parking/parking-map-search.png" alt="Parking Finder map search results"><figcaption>Map Search Results</figcaption></figure>
+          <figure class="screen"><img src="assets/img/parking/parking-subscription-plans.png" alt="Parking Finder subscription plans"><figcaption>Subscription Plans</figcaption></figure>
+          <figure class="screen"><img src="assets/img/parking/parking-revenue-management.png" alt="Parking Finder admin revenue chart"><figcaption>Revenue Dashboard</figcaption></figure>
+        </div>
+      </article>
+
+      <article class="project-card reverse">
+        <div class="project-copy">
+          <span class="project-label">Laravel API • React • External APIs</span>
+          <h3>Gold Price Tracker</h3>
+          <p>A full-stack application that tracks live gold prices, manages user gold assets, and calculates profit/loss in real time using a Laravel API and React frontend.</p>
+          <ul>
+            <li>Live gold price tracking and karat calculations</li>
+            <li>Asset management with real-time profit/loss logic</li>
+            <li>Laravel API consumed by React frontend</li>
           </ul>
           <div class="project-links">
-            <a href="https://github.com/A2003Q/EasyPark.git" target="_blank">GitHub Repository</a>
+            <a href="https://github.com/A2003Q/Gold-Price-Tracker" target="_blank">GitHub Repository</a>
+            <a href="https://www.linkedin.com/posts/aisha-qarout_fullstack-laravel-react-activity-7449049663824928768-c52T" target="_blank">LinkedIn Demo</a>
           </div>
         </div>
-        <div class="project-gallery">
-          <img src="assets/img/parking/parking-map-search.png" alt="Parking Finder map search screen">
-          <img src="assets/img/parking/parking-subscription-plans.png" alt="Parking Finder subscription plans screen">
-          <img src="assets/img/parking/parking-admin-dashboard.png" alt="Parking Finder admin dashboard screen">
+        <div class="single-preview">
+          <figure class="screen large"><img src="assets/img/gold/gold-price-tracker-preview.png" alt="Gold Price Tracker dashboard preview"><figcaption>Gold Tracking Dashboard Preview</figcaption></figure>
         </div>
       </article>
 
@@ -107,61 +127,37 @@
           <h3>E-Commerce Clothes Store</h3>
           <p>A full-stack clothing store with product browsing, cart workflow, order tracking, feedback, profile editing, and admin management pages for users, orders, and customer feedback.</p>
           <ul>
-            <li>Product overview, product details, cart, and checkout</li>
+            <li>Product overview, details, cart, and checkout</li>
             <li>User order history and profile management</li>
             <li>Admin user, order, and feedback management</li>
           </ul>
-          <div class="project-links">
-            <a href="https://github.com/A2003Q/PHP_Project.git" target="_blank">GitHub Repository</a>
-          </div>
+          <div class="project-links"><a href="https://github.com/A2003Q/PHP_Project.git" target="_blank">GitHub Repository</a></div>
         </div>
-        <div class="project-gallery small">
-          <img src="assets/img/ecommerce/ecommerce-product-overview.png" alt="E-commerce product overview screen">
-          <img src="assets/img/ecommerce/ecommerce-cart-checkout.png" alt="E-commerce cart and checkout screen">
-          <img src="assets/img/ecommerce/ecommerce-admin-orders-management.png" alt="E-commerce admin orders management screen">
-        </div>
-      </article>
-
-      <article class="project-card featured">
-        <div class="project-copy">
-          <span class="project-label">Laravel API • React • External APIs</span>
-          <h3>Gold Price Tracker</h3>
-          <p>A full-stack web application that helps users follow live gold prices, manage their gold assets, and calculate profit/loss in real time. The backend is built with Laravel API and the frontend is built with React, with integration for live gold price and currency conversion APIs.</p>
-          <ul>
-            <li>Live gold price tracking with karat calculations</li>
-            <li>Gold asset management and profit/loss calculation</li>
-            <li>Laravel API consumed by a React frontend</li>
-          </ul>
-          <div class="project-links">
-            <a href="https://github.com/A2003Q/Gold-Price-Tracker" target="_blank">GitHub Repository</a>
-            <a href="https://www.linkedin.com/posts/aisha-qarout_fullstack-laravel-react-activity-7449049663824928768-c52T" target="_blank">LinkedIn Demo Post</a>
-          </div>
-        </div>
-        <div class="project-gallery">
-          <img src="assets/img/gold/gold-live-prices-dashboard.jpg" alt="Gold Price Tracker live prices dashboard preview">
-          <img src="assets/img/gold/gold-assets-profit-loss.jpg" alt="Gold Price Tracker assets and profit loss preview">
-          <img src="assets/img/gold/gold-asset-management-flow.jpg" alt="Gold Price Tracker asset management workflow preview">
+        <div class="screens-grid">
+          <figure class="screen large"><img src="assets/img/ecommerce/ecommerce-product-overview.png" alt="E-commerce product overview"><figcaption>Product Overview</figcaption></figure>
+          <figure class="screen"><img src="assets/img/ecommerce/ecommerce-cart-checkout.png" alt="E-commerce cart and checkout"><figcaption>Cart & Checkout</figcaption></figure>
+          <figure class="screen"><img src="assets/img/ecommerce/ecommerce-admin-orders-management.png" alt="E-commerce admin orders management"><figcaption>Admin Orders</figcaption></figure>
         </div>
       </article>
     </section>
 
     <section id="experience" class="section container reveal">
-      <div class="section-heading">
+      <div class="section-heading center">
         <p class="eyebrow">Experience</p>
-        <h2>Training, internships, and freelance work.</h2>
+        <h2>Training and practical experience</h2>
       </div>
       <div class="timeline">
-        <div class="timeline-item"><span>Oct 2025 – Jan 2026</span><h3>Full Stack Web Developer Trainee — Orange Coding School</h3><p>Built web applications using HTML, CSS, JavaScript, Bootstrap, PHP, Laravel, MySQL, REST APIs, and Git.</p></div>
-        <div class="timeline-item"><span>Jun 2025 – Sep 2025</span><h3>Developer Intern — Housing Bank for Trade & Finance</h3><p>Gained exposure to enterprise systems, IT operations, troubleshooting, monitoring, and professional workflows.</p></div>
-        <div class="timeline-item"><span>Feb 2022 – Jan 2023</span><h3>Freelance Java Developer — Upwork</h3><p>Developed small Java applications including games and basic management systems while improving OOP and debugging skills.</p></div>
+        <article><span>Oct 2025 – Jan 2026</span><h3>Full Stack Web Developer Trainee — Orange Coding School</h3><p>Built web applications using HTML, CSS, JavaScript, Bootstrap, PHP, Laravel, MySQL, REST APIs, and Git.</p></article>
+        <article><span>Jun 2025 – Sep 2025</span><h3>Developer Intern — Housing Bank for Trade & Finance</h3><p>Gained exposure to enterprise systems, IT operations, troubleshooting, monitoring, and professional workflows.</p></article>
+        <article><span>Feb 2022 – Jan 2023</span><h3>Freelance Java Developer — Upwork</h3><p>Developed small Java applications and basic management systems while improving OOP and debugging skills.</p></article>
       </div>
     </section>
 
     <section id="contact" class="section container contact reveal">
       <div>
         <p class="eyebrow">Contact</p>
-        <h2>Let’s build something useful.</h2>
-        <p>Open to junior full-stack, Laravel/PHP, Java, and software development opportunities.</p>
+        <h2>Open to junior full-stack opportunities.</h2>
+        <p class="lead">Interested in Laravel/PHP, Java, React, API, and software development roles.</p>
       </div>
       <div class="contact-card">
         <a href="mailto:aishaqarout2003@gmail.com">aishaqarout2003@gmail.com</a>
@@ -172,10 +168,7 @@
     </section>
   </main>
 
-  <footer>
-    <p>© <span id="year"></span> Aisha Qarout. Built with HTML, CSS, and JavaScript.</p>
-  </footer>
-
+  <footer><p>© <span id="year"></span> Aisha Qarout. Built with HTML, CSS, and JavaScript.</p></footer>
   <script src="assets/js/script.js"></script>
 </body>
 </html>
